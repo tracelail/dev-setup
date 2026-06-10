@@ -1,0 +1,64 @@
+# ── OS ───────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# ── Editors ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Pixi ─────────────────────────────────────────────────────────────
+.pixi/
+
+# ── Nextflow ─────────────────────────────────────────────────────────
+work/
+.nextflow/
+.nextflow.log*
+results/
+.nf-test/
+nf-test-output/
+
+# ── Bioinformatics data files (never commit raw data) ────────────────
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.sam
+*.vcf
+*.vcf.gz
+*.bcf
+*.bed
+*.bed.gz
+*.gff
+*.gff3
+*.gtf
+*.fa
+*.fasta
+*.fasta.gz
+*.h5ad
+*.loom
+
+# ── Secrets ──────────────────────────────────────────────────────────
+.env
+*.env
+.secrets

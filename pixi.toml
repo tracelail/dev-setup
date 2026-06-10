@@ -1,0 +1,18 @@
+[workspace]
+name = "nf-core-tools"
+version = "0.1.0"
+description = "nf-core development environment"
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64", "osx-arm64"]
+
+[dependencies]
+python = ">=3.13,<3.14"
+nextflow = "*"
+nf-test = "*"
+
+[pypi-dependencies]
+nf-core = "*"
+pre-commit = "*"
+
+[tasks]
+update = { cmd = "pixi update", description = "Update all dependencies" }

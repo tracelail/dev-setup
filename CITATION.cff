@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "YOUR PROJECT TITLE"
+abstract: "SHORT DESCRIPTION"
+authors:
+  - family-names: Lail
+    given-names: Trace
+    email: lailtrace@gmail.com
+    orcid: "https://orcid.org/YOUR-ORCID-HERE"
+repository-code: "https://github.com/tracelail/YOUR-REPO"
+license: MIT
+version: 0.1.0
+date-released: "YYYY-MM-DD"
