@@ -3,13 +3,13 @@ curl
 wget
 gh
 zsh
+pipx
 nodejs
 npm
+default-jdk
+seqkit
+tldr
 docker-ce
 docker-ce-cli
 containerd.io
 docker-compose-plugin
-default-jdk
-seqkit
-tldr
-pipx
